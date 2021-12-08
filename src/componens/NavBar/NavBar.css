@@ -1,0 +1,35 @@
+.nav {
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin-bottom: 50px;
+}
+a {
+  font-size: 18px;
+  width: 250px;
+  padding: 10px;
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid rgb(131, 129, 129);
+  color: rgb(48, 47, 47);
+  border-radius: 4px;
+}
+.active {
+  background-color: rgb(172, 172, 172);
+}
+.active:hover {
+  background-color: rgb(172, 172, 172);
+}
+a:hover {
+  background-color: rgba(172, 172, 172, 0.247);
+  color: rgb(48, 47, 47);
+}
+.currency1 {
+  border-radius: 4px 0 0 4px;
+  border-right: 1px solid rgb(131, 129, 129);
+}
+.currency2 {
+  border-radius: 0 4px 4px 0;
+  border-left: 1px solid rgb(131, 129, 129);
+}
