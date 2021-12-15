@@ -12,6 +12,26 @@
     <title>React App</title>
   </head>
   <body>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-analytics.js";
+
+      const firebaseConfig = {
+        apiKey: "AIzaSyDPmeHM1GGe-a_C1SwX7mTHym6eMzBjTFM",
+        authDomain: "currency-converter-83171.firebaseapp.com",
+        projectId: "currency-converter-83171",
+        storageBucket: "currency-converter-83171.appspot.com",
+        messagingSenderId: "494851355885",
+        appId: "1:494851355885:web:a6457ee475b02d53f248e4",
+        measurementId: "G-RHZS4PSDDV"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+    
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
    </body>

@@ -41,7 +41,7 @@ const Converter = () => {
   return (
     <div className='converter'>
       <div className='logo'></div>
-      <input className="input-value" type="text" placeholder="10 usd in rub" maxlength="25" onChange={onConvert}/>
+      <input className="input-value" type="text" placeholder="10 usd in rub" maxLength="25" onChange={onConvert}/>
       { result === null  ? isError : isOk }
       <button onClick={onClick}>Конвертировать</button>
       <div className="result"><span>{ result }</span></div>

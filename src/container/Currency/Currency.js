@@ -62,7 +62,7 @@ const Currency = () => {
   return (
     <div className="currency">
     <select name="currency" onChange={onChange}>
-      <option style={{display: "none"}} value="USD">USD</option>
+      <option style={{display: "none"}} value={baseCurrency}>{baseCurrency}</option>
       { options }
     </select>
       <ul className="currency-group">
